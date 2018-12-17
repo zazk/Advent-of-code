@@ -1,3 +1,3 @@
 ## Advent of Code 2018
 Status: Working on Day 2
-- Day 1: Instructions: Done
+- Day 1: Instructions: Done Python 3.6

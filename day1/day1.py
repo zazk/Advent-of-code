@@ -1,6 +1,5 @@
+from functools import reduce
 with open("input.txt") as file: 
-    result = 0;
     instructions = file.read().split('\n')
-    for step in instructions:
-        result = result + int(step)
-print(f'Result:{result}')
+    res = reduce(lambda res, value: res + int(value), instructions, 0)
+print(f'Result: {res}')
